@@ -37,25 +37,27 @@ theme = "timer-hugo"
     # You can use either an image or text as logo.
     # To use an image use 'logo' (logo itself) and 'logo_alt' (alternative text if image cannot displayed)
     # To use text as logo use 'logo_text'
-    logo = "images/logo.png"
+    logo_text = "Daniel Wing"
     logo_alt = "logo"
     #logo_text = "logo_text"
 
     # Banner Section
     [params.banner]
         enable  = true
-        bgImage = "images/slider.jpg"
-        heading = "HI, MY NAME IS JONATHON & I AM A"
+        bgImage = "https://www.gstatic.com/prettyearth/assets/preview/6295.jpg"
+        heading = "HI, MY NAME IS DANIEL WING & I AM A"
         description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
         btn     = true
         btnText = "Download More"
         btnURL  = "https://themefisher.com/"
         [[params.banner.flipText]]
-            title   = "DESIGNER"
+            title   = "BODGER"
         [[params.banner.flipText]]
-            title   = "DEVELOPER"
+            title   = "LEARNER"
         [[params.banner.flipText]]
-            title   = "FATHER"
+            title   = "KLUDGER"
+        [[params.banner.flipText]]
+            title   = "HUSBAND"
 
     # Homepage About Section
     [params.about]
