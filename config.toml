@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Daniel Wing"
 theme = "timer-hugo"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/v2/
 
