@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row content-justify-between">
             <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
-                <p class="copyright">Copyright {{ .Site.Params.footer.copyright_owner }} &copy;
+                <p class="copyright">Site template: Copyright {{ .Site.Params.footer.copyright_owner }} &copy;
                     <span>
                     {{ if (and (lt .Site.Params.footer.copyright_since (now.Format "2006")) .Site.Params.footer.copyright_since) }}
                         {{ .Site.Params.footer.copyright_since }} - 
@@ -29,6 +29,9 @@
                 </ul>
             </div>
         </div>
+        <!-- Theme credits -->
+        
+        <!-- Theme credits -->
     </div>
 </footer>
 {{ "<!-- footer section end -->" | safeHTML }}
